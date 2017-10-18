@@ -1,0 +1,40 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype",
+      "react"
+    ],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "mocha": true,
+      "jest": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "globals": {
+      "SyntheticEvent": true,
+      "SyntheticInputEvent": true
+    },
+    "rules": {
+      "indent": ["error", 2, {"SwitchCase": 1}],
+      "prefer-const": 0,
+      "import/no-mutable-exports": 0,
+      "import/no-extraneous-dependencies": 0,
+      "import/prefer-default-export": 0,
+      "comma-dangle": 0,
+      "no-use-before-define": 0,
+      "no-confusing-arrow": 0,
+      "arrow-parens": ["error", "always"],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "never"],
+      "no-console": "warn",
+      "object-curly-spacing": 0,
+      "no-nested-ternary": 1
+    }
+  }

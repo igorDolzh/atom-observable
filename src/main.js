@@ -1,4 +1,13 @@
-import { path, assocPath, equals, isNil, map, merge, without, identity } from 'ramda'
+import path from 'ramda/src/path'
+import assocPath from 'ramda/src/assocPath'
+import equals from 'ramda/src/equals'
+import isNil from 'ramda/src/isNil'
+import map from 'ramda/src/map'
+import merge from 'ramda/src/merge'
+import without from 'ramda/src/without'
+import identity from 'ramda/src/identity'
+import is from 'ramda/src/is'
+import apply from 'ramda/src/apply'
 
 class Atom {
   constructor(defaultValue = null) {
