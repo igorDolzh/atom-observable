@@ -1,4 +1,4 @@
-# lib-js-atom
+# js-atom
 
 Atom contains a value which can change over time.
 ```js
