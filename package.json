@@ -1,4 +1,11 @@
 {
+  "name": "js-atom",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igorDolzh/js-atom.git"
+  },
   "scripts": {
     "test": "jest",
     "build": "webpack",
